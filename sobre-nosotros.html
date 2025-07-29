@@ -1,0 +1,125 @@
+<!-- sobre-nosotros.html -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre Nosotros - Kebab Javier Núñez</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body class="bg-white text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-red-600 text-white p-4 shadow-md">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold">Kebab Javier Núñez</a>
+      <ul class="flex space-x-6 text-lg">
+        <li><a href="menu.html" class="hover:underline">Menú</a></li>
+        <li><a href="sobre-nosotros.html" class="hover:underline">Sobre Nosotros</a></li>
+        <li><a href="contacto.html" class="hover:underline">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Sección Sobre Nosotros -->
+  <section class="max-w-6xl mx-auto p-8 py-16">
+    <h2 class="text-3xl font-bold mb-8 text-center">Sobre Nosotros</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+      <!-- Información -->
+      <div>
+        <h3 class="text-2xl font-semibold mb-4">Nuestra Historia</h3>
+        <p class="text-lg mb-6">
+          Kebab Javier Núñez nació con el propósito de traer el auténtico sabor turco al corazón de nuestra ciudad.
+          Fundado en 2015 por un grupo de amigos apasionados por la cocina, queríamos crear un lugar donde todos
+          pudieran disfrutar de kebabs y platos tradicionales turcos de la mejor calidad. Cada ingrediente es
+          cuidadosamente seleccionado, y nuestras recetas son un homenaje a la tradición culinaria de Turquía.
+        </p>
+
+        <p class="text-lg mb-6">
+          Desde nuestros inicios, nuestro enfoque ha sido ofrecer comida fresca, sabrosa y accesible, sin perder de
+          vista la calidad. A lo largo de los años, hemos ido innovando en el menú, pero siempre manteniendo nuestra
+          esencia: un trato cercano, una cocina honesta y el mejor sabor en cada plato.
+        </p>
+
+        <h3 class="text-2xl font-semibold mb-4">Nuestra Filosofía</h3>
+        <p class="text-lg mb-6">
+          En Kebab Javier Núñez, creemos en la comida que une. Nuestra misión es ofrecer a nuestros clientes una
+          experiencia gastronómica auténtica y memorable. La comida es más que solo nutrir el cuerpo, es un puente entre
+          culturas, un encuentro de sabores que nos conecta con el mundo.
+        </p>
+
+        <h3 class="text-2xl font-semibold mb-4">Testimonios de Nuestros Clientes</h3>
+        <p class="text-lg mb-4">
+          No lo decimos solo nosotros, ¡sino también nuestros clientes! Aquí te dejamos algunos de los comentarios que
+          más nos emocionan:
+        </p>
+
+        <div class="bg-gray-100 p-6 rounded-lg shadow-lg mb-8">
+          <blockquote class="text-lg italic mb-4">"El mejor kebab que he probado en la ciudad. La carne está
+            perfectamente sazonada y los acompañamientos fresquísimos. ¡Siempre vengo con mi familia!"</blockquote>
+          <p class="text-right font-semibold">– Maria Asunción.</p>
+        </div>
+
+        <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+          <blockquote class="text-lg italic mb-4">"Me encanta el ambiente del local. Perfecto para una comida rápida
+            pero deliciosa. Los precios son muy razonables para la calidad que ofrecen."</blockquote>
+          <p class="text-right font-semibold">– Jose Miguel.</p>
+        </div>
+      </div>
+
+      <!-- Imagen del Local (debajo del texto) -->
+      <div class="flex justify-center">
+        <img src="img/local.jpg" alt="Imagen del local" class="w-3/4 md:w-full max-w-lg rounded-lg shadow-lg">
+      </div>
+    </div>
+  </section>
+
+  <!-- Redes sociales -->
+  <footer class="bg-red-600 py-8">
+    <div class="max-w-6xl mx-auto text-center px-4">
+  
+      <!-- Título -->
+      <h3 class="text-white text-2xl font-semibold mb-4">Síguenos en redes sociales</h3>
+  
+      <!-- Iconos sociales -->
+      <div class="flex justify-center gap-6 text-white mb-6">
+        <!-- Facebook -->
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="hover:scale-110 transition-transform duration-300">
+          <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+            <path d="M22 12a10 10 0 10-11.5 9.87v-6.99h-2.1v-2.88h2.1v-2.2c0-2.1 1.24-3.26 3.14-3.26.91 0 1.86.16 1.86.16v2.05h-1.05c-1.03 0-1.35.64-1.35 1.29v1.56h2.3l-.37 2.88h-1.93V21.9A10 10 0 0022 12z"/>
+          </svg>
+        </a>
+  
+        <!-- Instagram -->
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="hover:scale-110 transition-transform duration-300">
+          <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+            <path d="M12 2.16c3.2 0 3.584.012 4.849.07 1.17.057 1.957.248 2.414.415a4.92 4.92 0 011.738 1.008 4.92 4.92 0 011.008 1.738c.167.457.358 1.244.415 2.414.058 1.265.07 1.648.07 4.849s-.012 3.584-.07 4.849c-.057 1.17-.248 1.957-.415 2.414a4.92 4.92 0 01-1.008 1.738 4.92 4.92 0 01-1.738 1.008c-.457.167-1.244.358-2.414.415-1.265.058-1.648.07-4.849.07s-3.584-.012-4.849-.07c-1.17-.057-1.957-.248-2.414-.415a4.92 4.92 0 01-1.738-1.008 4.92 4.92 0 01-1.008-1.738c-.167-.457-.358-1.244-.415-2.414C2.172 15.584 2.16 15.2 2.16 12s.012-3.584.07-4.849c.057-1.17.248-1.957.415-2.414a4.92 4.92 0 011.008-1.738 4.92 4.92 0 011.738-1.008c.457-.167 1.244-.358 2.414-.415C8.416 2.172 8.8 2.16 12 2.16zM12 5.838A6.162 6.162 0 1018.162 12 6.169 6.169 0 0012 5.838zm0 10.2A4.038 4.038 0 1116.038 12 4.042 4.042 0 0112 16.038zm5.406-10.845a1.44 1.44 0 11-1.44-1.44 1.439 1.439 0 011.44 1.44z"/>
+          </svg>
+        </a>
+  
+        <!-- WhatsApp -->
+        <a href="https://wa.me/34600000000" target="_blank" aria-label="WhatsApp" class="hover:scale-110 transition-transform duration-300">
+          <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+            <path d="M12.001 2.002c5.523 0 10 4.477 10 10a9.944 9.944 0 01-1.63 5.442l1.114 4.063-4.16-1.092A9.964 9.964 0 0112 22c-5.523 0-10-4.477-10-10s4.477-10 10.001-10zm.136 3.553h-.005a7.1 7.1 0 00-7.097 7.096c0 1.33.367 2.627 1.063 3.76l-1.125 4.086 4.19-1.093a7.1 7.1 0 003.58.955 7.1 7.1 0 007.097-7.096 7.1 7.1 0 00-7.097-7.096z"/>
+          </svg>
+        </a>
+      </div>
+  
+      <!-- Copyright -->
+      <p class="text-sm text-gray-300 text-center">&copy; 2025 Kebab Javier Núñez. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  
+  
+  
+
+
+
+
+</body>
+
+</html>

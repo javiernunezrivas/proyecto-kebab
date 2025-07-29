@@ -1,0 +1,105 @@
+<!-- contacto.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Kebab Javier Núñez</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-red-600 text-white p-4 shadow-md">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold">Kebab Javier Núñez</a>
+      <ul class="flex space-x-6 text-lg">
+        <li><a href="menu.html" class="hover:underline">Menú</a></li>
+        <li><a href="sobre-nosotros.html" class="hover:underline">Sobre Nosotros</a></li>
+        <li><a href="contacto.html" class="hover:underline">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Información de contacto -->
+  <section class="max-w-6xl mx-auto p-8 py-16">
+    <h2 class="text-3xl font-bold mb-6 text-center">Contacto</h2>
+    <p class="text-lg mb-6 text-center">Estamos encantados de atenderte. Si tienes alguna duda o necesitas más información, no dudes en contactarnos. ¡Esperamos verte pronto!</p>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+      <div>
+        <h3 class="text-2xl font-semibold mb-4">Nuestra Ubicación</h3>
+        <p class="mb-4">📍 Calle de los Sabores, 123, Ciudad Sazón</p>
+        <p class="mb-4">📞 Teléfono: 666 777 888</p>
+        <p class="mb-4">⏰ Horario: Todos los días de 12:00 a 23:00</p>
+        <div class="aspect-video mt-6 mb-12">
+          <iframe
+            class="w-full h-full rounded-xl shadow-md"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.937084190244!2d-3.7037902846041863!3d40.41677597936368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42288712e5e9b9%3A0x4a75e503dcf5!2sCalle%20de%20los%20Sabores%2C%20123!5e0!3m2!1ses!2ses!4v1713357860000"
+            allowfullscreen=""
+            loading="lazy"></iframe>
+        </div>
+      </div>
+
+      <!-- Formulario de contacto -->
+      <div>
+        <h3 class="text-2xl font-semibold mb-4">Formulario de Contacto</h3>
+        <form action="#" method="POST" class="space-y-6">
+          <div>
+            <label for="nombre" class="block text-lg font-medium">Nombre</label>
+            <input type="text" id="nombre" name="nombre" class="w-full p-4 border border-gray-300 rounded-lg" required />
+          </div>
+          <div>
+            <label for="email" class="block text-lg font-medium">Correo electrónico</label>
+            <input type="email" id="email" name="email" class="w-full p-4 border border-gray-300 rounded-lg" required />
+          </div>
+          <div>
+            <label for="mensaje" class="block text-lg font-medium">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" class="w-full p-4 border border-gray-300 rounded-lg" rows="6" required></textarea>
+          </div>
+          <button type="submit" class="bg-red-600 text-white py-3 px-8 rounded-lg hover:bg-red-700 transition-colors">Enviar Mensaje</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-red-600 py-8">
+    <div class="max-w-6xl mx-auto text-center px-4">
+  
+      <!-- Título -->
+      <h3 class="text-white text-2xl font-semibold mb-4">Síguenos en redes sociales</h3>
+  
+      <!-- Iconos sociales -->
+      <div class="flex justify-center gap-6 text-white mb-6">
+        <!-- Facebook -->
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="hover:scale-110 transition-transform duration-300">
+          <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+            <path d="M22 12a10 10 0 10-11.5 9.87v-6.99h-2.1v-2.88h2.1v-2.2c0-2.1 1.24-3.26 3.14-3.26.91 0 1.86.16 1.86.16v2.05h-1.05c-1.03 0-1.35.64-1.35 1.29v1.56h2.3l-.37 2.88h-1.93V21.9A10 10 0 0022 12z"/>
+          </svg>
+        </a>
+  
+        <!-- Instagram -->
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="hover:scale-110 transition-transform duration-300">
+          <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+            <path d="M12 2.16c3.2 0 3.584.012 4.849.07 1.17.057 1.957.248 2.414.415a4.92 4.92 0 011.738 1.008 4.92 4.92 0 011.008 1.738c.167.457.358 1.244.415 2.414.058 1.265.07 1.648.07 4.849s-.012 3.584-.07 4.849c-.057 1.17-.248 1.957-.415 2.414a4.92 4.92 0 01-1.008 1.738 4.92 4.92 0 01-1.738 1.008c-.457.167-1.244.358-2.414.415-1.265.058-1.648.07-4.849.07s-3.584-.012-4.849-.07c-1.17-.057-1.957-.248-2.414-.415a4.92 4.92 0 01-1.738-1.008 4.92 4.92 0 01-1.008-1.738c-.167-.457-.358-1.244-.415-2.414C2.172 15.584 2.16 15.2 2.16 12s.012-3.584.07-4.849c.057-1.17.248-1.957.415-2.414a4.92 4.92 0 011.008-1.738 4.92 4.92 0 011.738-1.008c.457-.167 1.244-.358 2.414-.415C8.416 2.172 8.8 2.16 12 2.16zM12 5.838A6.162 6.162 0 1018.162 12 6.169 6.169 0 0012 5.838zm0 10.2A4.038 4.038 0 1116.038 12 4.042 4.042 0 0112 16.038zm5.406-10.845a1.44 1.44 0 11-1.44-1.44 1.439 1.439 0 011.44 1.44z"/>
+          </svg>
+        </a>
+  
+        <!-- WhatsApp -->
+        <a href="https://wa.me/34600000000" target="_blank" aria-label="WhatsApp" class="hover:scale-110 transition-transform duration-300">
+          <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+            <path d="M12.001 2.002c5.523 0 10 4.477 10 10a9.944 9.944 0 01-1.63 5.442l1.114 4.063-4.16-1.092A9.964 9.964 0 0112 22c-5.523 0-10-4.477-10-10s4.477-10 10.001-10zm.136 3.553h-.005a7.1 7.1 0 00-7.097 7.096c0 1.33.367 2.627 1.063 3.76l-1.125 4.086 4.19-1.093a7.1 7.1 0 003.58.955 7.1 7.1 0 007.097-7.096 7.1 7.1 0 00-7.097-7.096z"/>
+          </svg>
+        </a>
+      </div>
+  
+      <!-- Copyright -->
+      <p class="text-sm text-gray-300 text-center">&copy; 2025 Kebab Javier Núñez. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  
+  
+  
+</body>
+</html>

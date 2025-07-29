@@ -1,0 +1,683 @@
+<!-- menu.html -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú - Kebab Javier Núñez</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body class="bg-white text-gray-800">
+
+<!-- Navbar fijo -->
+<nav class="bg-red-600 text-white p-4 shadow-md fixed top-0 left-0 w-full z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold">Kebab Javier Núñez</a>
+      <ul class="flex space-x-6 text-lg">
+        <li><a href="menu.html" class="hover:underline">Menú</a></li>
+        <li><a href="sobre-nosotros.html" class="hover:underline">Sobre Nosotros</a></li>
+        <li><a href="contacto.html" class="hover:underline">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- Submenú fijo debajo del navbar -->
+  <div class="bg-gray-100 py-4 sticky top-[64px] z-40 shadow">
+    <div class="max-w-6xl mx-auto flex flex-wrap justify-center gap-4">
+      <a href="#bebidas" class="bg-white px-4 py-2 rounded shadow hover:bg-red-100">Bebidas</a>
+      <a href="#entrantes" class="bg-white px-4 py-2 rounded shadow hover:bg-red-100">Entrantes</a>
+      <a href="#durum" class="bg-white px-4 py-2 rounded shadow hover:bg-red-100">Durum & Kebab</a>
+      <a href="#hamburguesas" class="bg-white px-4 py-2 rounded shadow hover:bg-red-100">Hamburguesas</a>
+      <a href="#pizzas" class="bg-white px-4 py-2 rounded shadow hover:bg-red-100">Pizzas</a>
+      <a href="#menus" class="bg-white px-4 py-2 rounded shadow hover:bg-red-100">Menús</a>
+    </div>
+  </div>
+  
+  <!-- IMPORTANTE: Añade esto al comienzo del body o sección principal -->
+  <!-- Para compensar el espacio que ocupan navbar + submenú -->
+  <div class="pt-[70px]"></div> <!-- Ajusta este valor si cambias alturas -->
+  
+    <!-- Secciones de productos -->
+    <!-- Sección de Bebidas -->
+    <section id="bebidas" class="max-w-6xl mx-auto px-4 py-12">
+        <h2 class="text-2xl font-bold mb-6">Bebidas</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-8">
+            <!-- Bebida 1: Coca-Cola -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <!-- Imagen ajustada al espacio sin deformarse -->
+                <img src="img/bebidas/bebida1.jpg" alt="Coca-Cola" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Coca-Cola</h3>
+                <p class="text-gray-600">Refresco clásico 33cl</p>
+                <p class="font-bold">1,50€</p>
+            </div>
+
+            <!-- Bebida 2: Fanta Naranja -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <!-- Imagen ajustada al espacio sin deformarse -->
+                <img src="img/bebidas/bebida2.jpg" alt="Fanta Naranja" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Fanta Naranja</h3>
+                <p class="text-gray-600">Refresco sabor naranja 33cl</p>
+                <p class="font-bold">1,50€</p>
+            </div>
+
+            <!-- Bebida 3: Agua Mineral -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <!-- Imagen ajustada al espacio sin deformarse -->
+                <img src="img/bebidas/bebida3.jpg" alt="Agua Mineral" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Agua Mineral</h3>
+                <p class="text-gray-600">Botella 50cl</p>
+                <p class="font-bold">1,00€</p>
+            </div>
+
+            <!-- Bebida 4: Pepsi -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <!-- Imagen ajustada al espacio sin deformarse -->
+                <img src="img/bebidas/bebida4.jpg" alt="Pepsi" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Pepsi</h3>
+                <p class="text-gray-600">Refresco clásico 33cl</p>
+                <p class="font-bold">1,50€</p>
+            </div>
+
+            <!-- Bebida 5: 7UP -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <!-- Imagen ajustada al espacio sin deformarse -->
+                <img src="img/bebidas/bebida5.jpg" alt="7UP" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">7UP</h3>
+                <p class="text-gray-600">Refresco sabor limón 33cl</p>
+                <p class="font-bold">1,50€</p>
+            </div>
+
+            <!-- Bebida 6: Tónica -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <!-- Imagen ajustada al espacio sin deformarse -->
+                <img src="img/bebidas/bebida6.jpg" alt="Tónica" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Tónica</h3>
+                <p class="text-gray-600">Botella 33cl</p>
+                <p class="font-bold">1,60€</p>
+            </div>
+
+            <!-- Bebida 7: Red Bull -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <!-- Imagen ajustada al espacio sin deformarse -->
+                <img src="img/bebidas/bebida7.jpg" alt="Red Bull" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Red Bull</h3>
+                <p class="text-gray-600">Bebida energética 250ml</p>
+                <p class="font-bold">2,00€</p>
+            </div>
+
+            <!-- Bebida 8: Nestea Limón -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <!-- Imagen ajustada al espacio sin deformarse -->
+                <img src="img/bebidas/bebida8.jpg" alt="Nestea Limón" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Nestea Limón</h3>
+                <p class="text-gray-600">Té helado sabor limón 33cl</p>
+                <p class="font-bold">1,80€</p>
+            </div>
+
+            <!-- Bebida 9: Horchata -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <!-- Imagen ajustada al espacio sin deformarse -->
+                <img src="img/bebidas/bebida9.jpg" alt="Horchata" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Horchata</h3>
+                <p class="text-gray-600">Bebida refrescante 33cl</p>
+                <p class="font-bold">2,00€</p>
+            </div>
+
+            <!-- Bebida 10: Monster -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <!-- Imagen ajustada al espacio sin deformarse -->
+                <img src="img/bebidas/bebida10.jpg" alt="Monster" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Monster</h3>
+                <p class="text-gray-600">Bebida energética 250ml</p>
+                <p class="font-bold">2,50€</p>
+            </div>
+
+            <!-- Bebida 11: Agua con Gas -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <!-- Imagen ajustada al espacio sin deformarse -->
+                <img src="img/bebidas/bebida11.jpg" alt="Agua con Gas" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Agua con Gas</h3>
+                <p class="text-gray-600">Botella 50cl</p>
+                <p class="font-bold">1,20€</p>
+            </div>
+
+            <!-- Bebida 12: Fanta Limón -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <!-- Imagen ajustada al espacio sin deformarse -->
+                <img src="img/bebidas/bebida12.jpg" alt="Fanta Limón" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Fanta Limón</h3>
+                <p class="text-gray-600">Refresco sabor limón 33cl</p>
+                <p class="font-bold">1,50€</p>
+            </div>
+
+            <!-- Bebida 13: Aquarius Limón -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <!-- Imagen ajustada al espacio sin deformarse -->
+                <img src="img/bebidas/bebida13.jpg" alt="Aquarius Limón"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Aquarius Limón</h3>
+                <p class="text-gray-600">Refresco bajo en calorías 33cl</p>
+                <p class="font-bold">1,60€</p>
+            </div>
+
+            <!-- Bebida 14: Sprite -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <!-- Imagen ajustada al espacio sin deformarse -->
+                <img src="img/bebidas/bebida14.jpg" alt="Sprite" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Sprite</h3>
+                <p class="text-gray-600">Refresco sabor limón 33cl</p>
+                <p class="font-bold">1,50€</p>
+            </div>
+
+            <!-- Bebida 15: Té Verde -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <!-- Imagen ajustada al espacio sin deformarse -->
+                <img src="img/bebidas/bebida15.jpg" alt="Té Verde" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Té Verde</h3>
+                <p class="text-gray-600">Infusión refrescante 33cl</p>
+                <p class="font-bold">1,80€</p>
+            </div>
+
+            <!-- Bebida 16: Cerveza -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <!-- Imagen ajustada al espacio sin deformarse -->
+                <img src="img/bebidas/bebida16.jpg" alt="Cerveza" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Cerveza</h3>
+                <p class="text-gray-600">Botella 33cl</p>
+                <p class="font-bold">2,00€</p>
+            </div>
+
+            <!-- Bebida 17: Zumo de Naranja -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/bebidas/bebida17.jpg" alt="Zumo de Naranja"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Zumo de Naranja</h3>
+                <p class="text-gray-600">Natural y refrescante 25cl</p>
+                <p class="font-bold">2,00€</p>
+            </div>
+
+            <!-- Bebida 18: Cacaolat -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/bebidas/bebida18.jpg" alt="Cacaolat" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Cacaolat</h3>
+                <p class="text-gray-600">Bebida de cacao 20cl</p>
+                <p class="font-bold">1,80€</p>
+            </div>
+
+            <!-- Bebida 19: Batido de Fresa -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/bebidas/bebida19.jpg" alt="Batido de Fresa"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Batido de Fresa</h3>
+                <p class="text-gray-600">Batido lácteo 25cl</p>
+                <p class="font-bold">1,90€</p>
+            </div>
+
+            <!-- Bebida 20: Agua de Coco -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/bebidas/bebida20.jpg" alt="Agua de Coco" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Agua de Coco</h3>
+                <p class="text-gray-600">Natural y tropical 33cl</p>
+                <p class="font-bold">2,20€</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sección de entrantes -->
+    <section id="entrantes" class="max-w-6xl mx-auto px-4 py-12">
+        <h2 class="text-2xl font-bold mb-6">Entrantes</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-8 ">
+
+            <!-- Entrante 1: Patatas Fritas -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/entrantes/entrante1.jpg" alt="Patatas Fritas"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Patatas Fritas</h3>
+                <p class="text-gray-600">Crujientes y doradas</p>
+                <p class="font-bold">2,00€</p>
+            </div>
+
+            <!-- Entrante 2: Nuggets de Pollo -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/entrantes/entrante2.jpg" alt="Nuggets de Pollo"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Nuggets de Pollo</h3>
+                <p class="text-gray-600">6 unidades con salsa</p>
+                <p class="font-bold">3,50€</p>
+            </div>
+
+            <!-- Entrante 3: Aros de Cebolla -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/entrantes/entrante3.jpg" alt="Aros de Cebolla"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Aros de Cebolla</h3>
+                <p class="text-gray-600">Crujientes y sabrosos</p>
+                <p class="font-bold">3,00€</p>
+            </div>
+
+            <!-- Entrante 4: Alitas BBQ -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/entrantes/entrante4.jpg" alt="Alitas BBQ" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Alitas BBQ</h3>
+                <p class="text-gray-600">Con salsa barbacoa</p>
+                <p class="font-bold">4,00€</p>
+            </div>
+
+            <!-- Entrante 5: Pan de Ajo -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/entrantes/entrante5.jpg" alt="Pan de Ajo" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Pan de Ajo</h3>
+                <p class="text-gray-600">Tostado con mantequilla de ajo</p>
+                <p class="font-bold">2,50€</p>
+            </div>
+
+            <!-- Entrante 6: Ensalada Mixta -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/entrantes/entrante6.jpg" alt="Ensalada Mixta"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Ensalada Mixta</h3>
+                <p class="text-gray-600">Lechuga, tomate, maíz y atún</p>
+                <p class="font-bold">3,50€</p>
+            </div>
+
+            <!-- Entrante 7: Falafel -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/entrantes/entrante7.jpg" alt="Falafel" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Falafel</h3>
+                <p class="text-gray-600">Bocados de garbanzo especiado</p>
+                <p class="font-bold">3,20€</p>
+            </div>
+
+            <!-- Entrante 8: Hummus con Pan -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/entrantes/entrante8.jpg" alt="Hummus con Pan"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Hummus con Pan</h3>
+                <p class="text-gray-600">Con pan de pita</p>
+                <p class="font-bold">3,80€</p>
+            </div>
+
+            <!-- Entrante 9: Tequeños -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/entrantes/entrante9.jpg" alt="Tequeños" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Tequeños</h3>
+                <p class="text-gray-600">Palitos de queso fundido</p>
+                <p class="font-bold">4,00€</p>
+            </div>
+
+            <!-- Entrante 10: Croquetas Caseras -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/entrantes/entrante10.jpg" alt="Croquetas Caseras"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Croquetas Caseras</h3>
+                <p class="text-gray-600">De jamón ibérico</p>
+                <p class="font-bold">3,50€</p>
+            </div>
+
+            <!-- Entrante 11: Mozzarella Sticks -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/entrantes/entrante11.jpg" alt="Mozzarella Sticks"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Mozzarella Sticks</h3>
+                <p class="text-gray-600">Rebozados con salsa</p>
+                <p class="font-bold">4,20€</p>
+            </div>
+
+            <!-- Entrante 12: Tiras de Pollo -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/entrantes/entrante12.jpg" alt="Tiras de Pollo"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Tiras de Pollo</h3>
+                <p class="text-gray-600">Crujientes y sabrosas</p>
+                <p class="font-bold">4,00€</p>
+            </div>
+
+            <!-- Entrante 13: Nachos con Queso -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/entrantes/entrante13.jpg" alt="Nachos con Queso"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Nachos con Queso</h3>
+                <p class="text-gray-600">Con jalapeños opcionales</p>
+                <p class="font-bold">4,50€</p>
+            </div>
+
+            <!-- Entrante 14: Brochetas de Verduras -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/entrantes/entrante14.jpg" alt="Brochetas de Verduras"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Brochetas de Verduras</h3>
+                <p class="text-gray-600">Con aceite de oliva y especias</p>
+                <p class="font-bold">3,80€</p>
+            </div>
+
+            <!-- Entrante 15: Bastones de Berenjena -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/entrantes/entrante15.jpg" alt="Bastones de Berenjena"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Bastones de Berenjena</h3>
+                <p class="text-gray-600">Fritos y servidos con miel</p>
+                <p class="font-bold">3,90€</p>
+            </div>
+
+            <!-- Entrante 16: Mini Tacos -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/entrantes/entrante16.jpg" alt="Mini Tacos"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Mini Tacos</h3>
+                <p class="text-gray-600">Rellenos de carne especiada</p>
+                <p class="font-bold">4,50€</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Sección de Durums y Kebab -->
+    <section id="durum" class="max-w-6xl mx-auto px-4 py-12">
+        <h2 class="text-2xl font-bold mb-6">Durums y Kebab</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-8">
+
+            <!-- Producto 1: Durum de Pollo -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/kebab/plato1.jpg" alt="Durum de Pollo" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Durum de Pollo</h3>
+                <p class="text-gray-600">Con lechuga, tomate y salsa blanca</p>
+                <p class="font-bold">5,50€</p>
+            </div>
+
+            <!-- Producto 2: Durum Mixto -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/kebab/plato2.jpg" alt="Durum Mixto" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Durum Mixto</h3>
+                <p class="text-gray-600">Pollo y ternera con verduras</p>
+                <p class="font-bold">6,00€</p>
+            </div>
+
+            <!-- Producto 3: Kebab de Ternera -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/kebab/plato3.jpg" alt="Kebab de Ternera" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Kebab de Ternera</h3>
+                <p class="text-gray-600">Con pan de pita, ensalada y salsa</p>
+                <p class="font-bold">5,00€</p>
+            </div>
+
+            <!-- Producto 4: Kebab Vegetariano -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/kebab/plato4.jpg" alt="Kebab Vegetariano" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Kebab Vegetariano</h3>
+                <p class="text-gray-600">Con falafel, hummus y verduras frescas</p>
+                <p class="font-bold">5,20€</p>
+            </div>
+
+            <!-- Producto 5: Durum Vegetariano -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/kebab/plato5.jpg" alt="Durum Vegetariano" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Durum Vegetariano</h3>
+                <p class="text-gray-600">Falafel, lechuga y salsa de yogur</p>
+                <p class="font-bold">5,20€</p>
+            </div>
+
+            <!-- Producto 6: Kebab de Pollo -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/kebab/plato6.jpg" alt="Kebab de Pollo" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Kebab de Pollo</h3>
+                <p class="text-gray-600">Con ensalada fresca y salsa picante</p>
+                <p class="font-bold">5,00€</p>
+            </div>
+
+            <!-- Producto 7: Durum XXL -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/kebab/plato7.jpg" alt="Durum XXL" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Durum XXL</h3>
+                <p class="text-gray-600">Doble carne y salsa extra</p>
+                <p class="font-bold">7,00€</p>
+            </div>
+
+            <!-- Producto 8: Plato Kebab -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/kebab/plato8.jpg" alt="Plato Kebab" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Plato Kebab</h3>
+                <p class="text-gray-600">Carne, patatas y ensalada</p>
+                <p class="font-bold">6,50€</p>
+            </div>
+
+            <!-- Producto 9: Durum de Cordero -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/kebab/plato9.jpg" alt="Durum de Cordero" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Durum de Cordero</h3>
+                <p class="text-gray-600">Con salsa especial y verduras</p>
+                <p class="font-bold">6,20€</p>
+            </div>
+
+            <!-- Producto 10: Kebab en Pan de Pizza -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/kebab/plato10.jpg" alt="Kebab en Pan de Pizza"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Kebab en Pan de Pizza</h3>
+                <p class="text-gray-600">Pan horneado estilo pizza con carne y queso</p>
+                <p class="font-bold">6,80€</p>
+            </div>
+
+            <!-- Producto 11: Durum con Queso Fundido -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/kebab/plato11.jpg" alt="Durum con Queso Fundido"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Durum Gratinado</h3>
+                <p class="text-gray-600">Carne, verduras y mezcla de quesos derretidos</p>
+                <p class="font-bold">6,80€</p>
+            </div>
+
+            <!-- Producto 12: Kebab con Huevo -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/kebab/plato12.jpg" alt="Kebab con Huevo" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Kebab con Huevo</h3>
+                <p class="text-gray-600">Ternera, lechuga, salsa y huevo a la plancha</p>
+                <p class="font-bold">6,00€</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Sección de Hamburguesas -->
+    <section id="hamburguesas" class="max-w-6xl mx-auto px-4 py-12">
+        <h2 class="text-2xl font-bold mb-6">Hamburguesas</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-8">
+
+            <!-- Hamburguesa Clásica -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/hamburguesas/hamburguesa1.jpg" alt="Hamburguesa Clásica"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Hamburguesa Clásica</h3>
+                <p class="text-gray-600">Carne de vacuno, lechuga, tomate y queso cheddar</p>
+                <p class="font-bold">5,00€</p>
+            </div>
+
+            <!-- Hamburguesa BBQ -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/hamburguesas/hamburguesa2.jpg" alt="Hamburguesa BBQ"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Hamburguesa BBQ</h3>
+                <p class="text-gray-600">Carne, cebolla caramelizada, bacon y salsa barbacoa</p>
+                <p class="font-bold">5,80€</p>
+            </div>
+
+            <!-- Hamburguesa Vegetariana -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/hamburguesas/hamburguesa3.jpg" alt="Hamburguesa Vegetariana"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Hamburguesa Vegetariana</h3>
+                <p class="text-gray-600">Hamburguesa de soja con aguacate, rúcula y tomate</p>
+                <p class="font-bold">5,50€</p>
+            </div>
+
+            <!-- Hamburguesa Picante -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/hamburguesas/hamburguesa4.jpg" alt="Hamburguesa Picante"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Hamburguesa Picante</h3>
+                <p class="text-gray-600">Carne, jalapeños, queso y salsa chipotle</p>
+                <p class="font-bold">5,70€</p>
+            </div>
+
+            <!-- Hamburguesa con Huevo -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/hamburguesas/hamburguesa5.jpg" alt="Hamburguesa con Huevo"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Hamburguesa con Huevo</h3>
+                <p class="text-gray-600">Carne de vacuno, huevo a la plancha, queso y lechuga</p>
+                <p class="font-bold">5,90€</p>
+            </div>
+
+            <!-- Hamburguesa Doble Carne -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/hamburguesas/hamburguesa6.jpg" alt="Hamburguesa Doble Carne"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Hamburguesa Doble Carne</h3>
+                <p class="text-gray-600">Doble carne, doble queso, lechuga y tomate</p>
+                <p class="font-bold">6,50€</p>
+            </div>
+
+            <!-- Hamburguesa de Pollo Crujiente -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/hamburguesas/hamburguesa7.jpg" alt="Hamburguesa de Pollo Crujiente"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Hamburguesa de Pollo Crujiente</h3>
+                <p class="text-gray-600">Filete de pollo empanado, mayonesa y lechuga</p>
+                <p class="font-bold">5,60€</p>
+            </div>
+
+            <!-- Hamburguesa Deluxe -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/hamburguesas/hamburguesa8.jpg" alt="Hamburguesa Deluxe"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Hamburguesa Deluxe</h3>
+                <p class="text-gray-600">Carne, bacon, huevo, queso, lechuga, tomate y salsa especial</p>
+                <p class="font-bold">6,80€</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Sección de Pizzas -->
+    <section id="pizzas" class="max-w-6xl mx-auto px-4 py-12">
+        <h2 class="text-2xl font-bold mb-6">Pizzas</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-8">
+
+            <!-- Pizza Margarita -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/pizzas/pizza1.jpg" alt="Pizza Margarita" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Margarita</h3>
+                <p class="text-gray-600">Mozzarella, tomate natural y orégano</p>
+                <p class="font-bold">6,00€</p>
+            </div>
+
+            <!-- Pizza Pepperoni -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/pizzas/pizza2.jpg" alt="Pizza Pepperoni" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Pepperoni</h3>
+                <p class="text-gray-600">Mozzarella, tomate y extra de pepperoni</p>
+                <p class="font-bold">7,50€</p>
+            </div>
+
+            <!-- Pizza Cuatro Quesos -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/pizzas/pizza3.jpg" alt="Pizza Cuatro Quesos"
+                    class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Cuatro Quesos</h3>
+                <p class="text-gray-600">Mozzarella, cheddar, gorgonzola y parmesano</p>
+                <p class="font-bold">7,80€</p>
+            </div>
+
+            <!-- Pizza Barbacoa -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/pizzas/pizza4.jpg" alt="Pizza Barbacoa" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Barbacoa</h3>
+                <p class="text-gray-600">Carne picada, bacon, cebolla y salsa BBQ</p>
+                <p class="font-bold">8,00€</p>
+            </div>
+
+            <!-- Pizza Vegetal -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/pizzas/pizza5.jpg" alt="Pizza Vegetal" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Vegetal</h3>
+                <p class="text-gray-600">Rucula, pepperoni, cebolla y aceitunas</p>
+                <p class="font-bold">7,00€</p>
+            </div>
+
+            <!-- Pizza Hawaiana -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/pizzas/pizza6.jpg" alt="Pizza Hawaiana" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Hawaiana</h3>
+                <p class="text-gray-600">Jamón cocido y piña con extra de queso</p>
+                <p class="font-bold">7,20€</p>
+            </div>
+
+            <!-- Pizza de Pollo -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/pizzas/pizza7.jpg" alt="Pizza de Pollo" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Pizza de Pollo</h3>
+                <p class="text-gray-600">Tiras de pollo, maíz y salsa cremosa</p>
+                <p class="font-bold">7,50€</p>
+            </div>
+
+            <!-- Pizza de Kebab -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <img src="img/pizzas/pizza8.jpg" alt="Pizza de Kebab" class="w-full h-32 object-contain mb-4 rounded">
+                <h3 class="text-lg font-semibold">Pizza de Kebab</h3>
+                <p class="text-gray-600">Carne de kebab, salsa blanca, lechuga y cebolla</p>
+                <p class="font-bold">8,50€</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Sección de menús -->
+    <section id="menus" class="max-w-6xl mx-auto px-4 py-12">
+        <h2 class="text-2xl font-bold mb-6">Menús Combinados</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-8">
+
+            <!-- Menú 1 -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <h3 class="text-lg font-semibold">Menú Kebab Clásico</h3>
+                <p class="text-gray-600">Kebab, papas y bebida</p>
+                <p class="font-bold">9,00€</p>
+            </div>
+
+            <!-- Menú 2 -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <h3 class="text-lg font-semibold">Menú Hamburguesa</h3>
+                <p class="text-gray-600">Hamburguesa con queso, papas y bebida</p>
+                <p class="font-bold">9,00€</p>
+            </div>
+
+            <!-- Menú 3 -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <h3 class="text-lg font-semibold">Menú Familiar</h3>
+                <p class="text-gray-600">2 kebabs, 2 papas, 2 bebidas</p>
+                <p class="font-bold">17,00€</p>
+            </div>
+
+            <!-- Menú 4 -->
+            <div class="bg-white shadow-md p-4 rounded">
+                <h3 class="text-lg font-semibold">Menú Pizza Kebab</h3>
+                <p class="text-gray-600">Pizza de kebab y bebida</p>
+                <p class="font-bold">10,00€</p>
+            </div>
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>
